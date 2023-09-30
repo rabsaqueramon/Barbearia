@@ -392,101 +392,37 @@
         font-family: 'sansita', cursive;
     }
 
-    .item1 {
-        grid-area: header;
+    .imagensPortifolio {
+        width: 100%;
+        height: 70%;
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
+
     }
 
-    .itemImg {
+    .portifolio {
+        overflow: hidden;
         width: 45%;
-        height: 80%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        height: 20%;
+        margin: 1rem 0;
+        border-radius: 0.2rem;
+        box-shadow: 0 0 1rem #c68337d0;
     }
 
-    .item1 img {
+    .portifolio:hover {
+    }
+    
+    .imagensPortifolio > .portifolio > img {
         width: 100%;
     }
 
-    .item1 img:hover {
+    .portifolio > img:hover {
         transform: scale(1.1);
         transition-duration: 0.4s;
     }
 
-    .item2 {
-        grid-area: menu;
-        background-image: url(../Imagens/portifólio/img3.jpg);
-        background-size: cover;
-        color: rgba(255, 255, 255, 0);
-        overflow: hidden;
-    }
-
-    .item2:hover {
-        transform: scale(1.1);
-        transition-duration: 0.4s;
-    }
-
-    .item3 {
-        grid-area: main;
-        background-image: url(../Imagens/portifólio/img5.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-        color: #ffffff00;
-    }
-
-    .item3:hover {
-        transform: scale(1.1);
-        transition-duration: 0.4s;
-    }
-
-    .item4 {
-        grid-area: right;
-        background-image: url(../Imagens/portifólio/img6.jpg);
-        color: rgba(255, 255, 255, 0);
-    }
-
-    .item4:hover {
-        transform: scale(1.1);
-        transition-duration: 0.4s;
-    }
-
-    .item5 {
-        grid-area: footer;
-        background-image: url(../Imagens/portifólio/img7.jpg);
-        background-size: cover;
-        background-position: center center;
-        color: #ffffff00;
-    }
-
-    .item5:hover {
-        transform: scale(1.1);
-        transition-duration: 0.4s;
-    }
-
-    .grid-container {
-        display: grid;
-        grid-template-areas:
-            'header header header header header header'
-            'menu main main main right right'
-            'menu footer footer footer footer footer';
-        gap: 10px;
-        padding: 10px;
-    }
-
-    .grid-container>div {
-        text-align: center;
-        padding: 20px 0;
-        font-size: 30px;
-    }
-
-    #itens {
-        overflow: hidden;
-    }
 
 
 
