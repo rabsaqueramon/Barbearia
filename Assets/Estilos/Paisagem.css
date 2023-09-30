@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+#conteiner-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Imagens/Template/Template-Mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .header {
+        height: 25%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .header>img {
+        width: 12%;
+
+    }
+
+    .conteudoConteiner1 {
+        position: relative;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%);
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 65%;
+        width: 100%;
+    }
+
+    .conteudoConteiner1>h1 {
+        font-size: 5.5rem;
+    }
+
+
+    .backgrounds {
+        position: relative;
+        left: 96%;
+        top: -20%;
+        height: 25%;
+        width: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+#conteiner-2 {
+    height: 160%;
+    width: 100%;
+    background-color: #161616;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+    .titulosConteiner2 {
+        width: 65%;
+        height: 25%;
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .titulosConteiner2>img {
+        width: 8%;
+    }
+
+    .conteudoConteiner2 > img {
+        width: 30%;
+    }
+}
+
+#conteiner-3 {
+    height: 110%;
+    width: 100%;
+    background-color: #202020;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+    .carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75%;
+    }
+
+
+    .carousel-inner {
+        height: 90%;
+    }
+
+    .carousel-item {
+        justify-content: center;
+        height: 90%;
+    }
+
+    .card {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #353535;
+        margin: auto;
+    }
+
+    .card>.divImg {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 25%;
+        height: 25%;
+        background-color: #c68337;
+        border: 1px solid white;
+        border-radius: 90%;
+        filter: drop-shadow(1rem -0.8rem 0rem #ffffff);
+    }
+}
